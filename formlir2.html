@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit_form.php" method="POST">
+        <fieldset>
+            <legend>Data Pribadi</legend>
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+            
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Data Orang Tua</legend>
+            <label for="nama_orang_tua">Nama Orang Tua:</label><br>
+            <input type="text" id="nama_orang_tua" name="nama_orang_tua" required><br><br>
+            
+            <label for="pekerjaan_orang_tua">Pekerjaan Orang Tua:</label><br>
+            <input type="text" id="pekerjaan_orang_tua" name="pekerjaan_orang_tua" required><br><br>
+            
+            <label for="alamat_orang_tua">Alamat Orang Tua:</label><br>
+            <textarea id="alamat_orang_tua" name="alamat_orang_tua" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
+</body>
+</html>
